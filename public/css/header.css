@@ -20,7 +20,6 @@ a {
 }
 .header{
     width: 100%;
-    margin-top: 40px;
 }
 ul li{
     list-style-type: none;
@@ -218,4 +217,23 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 19px;
+}
+
+@media all and (min-width:768px){
+    .bottom-box{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bottom-nav {
+        max-width: 768px;
+        height: 70px;
+        position: fixed;
+        bottom: 0px;
+        background-color: #fff;
+    }
+    .bottom-nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 19px;
+    }
 }
